@@ -15,7 +15,7 @@ subscriptionRouter.delete('/:id',  ( req, res ) => res.send( {title : 'Delete  s
 
 subscriptionRouter.get('/user/:id',  ( req, res ) => res.send( {title : 'get user subscriptions '} ))
 
-subscriptionRouter.put('/:id/cancel',  ( req, res ) => res.send( {title : 'cansel user subscription '} ))
+subscriptionRouter.put('/:id/cancel',  ( req, res ) => res.send( {title : 'cancel user subscription '} ))
 
 
 
